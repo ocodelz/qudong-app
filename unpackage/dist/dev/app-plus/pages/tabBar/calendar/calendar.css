@@ -1,0 +1,570 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+@font-face {
+  font-family: "江城圆体-200W";
+  src: url("../../../static/fonts/江城圆体-200W.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "江城圆体-300W";
+  src: url("../../../static/fonts/江城圆体-300W.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "江城圆体-400W";
+  src: url("../../../static/fonts/江城圆体-400W.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "江城圆体-500W";
+  src: url("../../../static/fonts/江城圆体-500W.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "江城圆体-600W";
+  src: url("../../../static/fonts/江城圆体-600W.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "江城圆体-700W";
+  src: url("../../../static/fonts/江城圆体-700W.ttf") format("truetype");
+  font-weight: 700;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.lz-status[data-v-40844bb6] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+@font-face {
+  font-family: "江城圆体-200W";
+  src: url("../../../static/fonts/江城圆体-200W.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "江城圆体-300W";
+  src: url("../../../static/fonts/江城圆体-300W.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "江城圆体-400W";
+  src: url("../../../static/fonts/江城圆体-400W.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "江城圆体-500W";
+  src: url("../../../static/fonts/江城圆体-500W.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "江城圆体-600W";
+  src: url("../../../static/fonts/江城圆体-600W.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "江城圆体-700W";
+  src: url("../../../static/fonts/江城圆体-700W.ttf") format("truetype");
+  font-weight: 700;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.lz-status[data-v-460e1b87] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 8888;
+}
+.nav-bar[data-v-460e1b87] {
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 8888;
+  width: 100%;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+}
+.nav-bar-left[data-v-460e1b87] {
+  display: flex;
+  align-items: center;
+}
+.nav-bar-left .left-icon[data-v-460e1b87] {
+  margin-right: 0.625rem;
+}
+.nav-bar-left .left-text[data-v-460e1b87] {
+  display: -webkit-box;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  flex-shrink: 0;
+  width: 12.5rem;
+  font-size: 1.125rem;
+  font-family: 江城圆体-600W, 江城圆体;
+  font-weight: normal;
+  color: #333;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+@font-face {
+  font-family: "江城圆体-200W";
+  src: url("../../../static/fonts/江城圆体-200W.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "江城圆体-300W";
+  src: url("../../../static/fonts/江城圆体-300W.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "江城圆体-400W";
+  src: url("../../../static/fonts/江城圆体-400W.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "江城圆体-500W";
+  src: url("../../../static/fonts/江城圆体-500W.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "江城圆体-600W";
+  src: url("../../../static/fonts/江城圆体-600W.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "江城圆体-700W";
+  src: url("../../../static/fonts/江城圆体-700W.ttf") format("truetype");
+  font-weight: 700;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tabbar[data-v-cbc872e1] {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 1.3125rem;
+  right: 1.3125rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.0625rem;
+  background: #FFFFFF;
+  box-shadow: 0.125rem -0.125rem 0.375rem 0 rgba(0, 0, 0, 0.1), 0.125rem 0.125rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+  opacity: 1;
+}
+.tabbar-item[data-v-cbc872e1] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3.125rem;
+}
+.tabbar-item-img[data-v-cbc872e1] {
+  width: 1.625rem;
+  height: 1.625rem;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+@font-face {
+  font-family: "江城圆体-200W";
+  src: url("../../../static/fonts/江城圆体-200W.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "江城圆体-300W";
+  src: url("../../../static/fonts/江城圆体-300W.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "江城圆体-400W";
+  src: url("../../../static/fonts/江城圆体-400W.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "江城圆体-500W";
+  src: url("../../../static/fonts/江城圆体-500W.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "江城圆体-600W";
+  src: url("../../../static/fonts/江城圆体-600W.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "江城圆体-700W";
+  src: url("../../../static/fonts/江城圆体-700W.ttf") format("truetype");
+  font-weight: 700;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.lunc-calendar .header[data-v-0688a28f] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+}
+.lunc-calendar .header .head-month[data-v-0688a28f] {
+  font-size: 1.125rem;
+  padding: 0 1.25rem;
+}
+.lunc-calendar .header .go-to-today[data-v-0688a28f] {
+  position: absolute;
+  right: 2.5625rem;
+  font-size: 1.25rem;
+  color: #333333;
+}
+.lunc-calendar .header .head-icon[data-v-0688a28f] {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-top: 1.125rem;
+}
+.lunc-calendar .header .head-icon[data-v-0688a28f]::after {
+  content: "";
+  display: block;
+  width: 0.5625rem;
+  height: 0.5625rem;
+  border-top: 0.0625rem solid #606266;
+  border-left: 0.0625rem solid #606266;
+}
+.lunc-calendar .header .head-icon.head-pre-month[data-v-0688a28f] {
+  transform: rotate(-45deg);
+}
+.lunc-calendar .header .head-icon.head-next-month[data-v-0688a28f] {
+  transform: rotate(135deg);
+}
+.lunc-calendar .week-area[data-v-0688a28f] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.625rem;
+}
+.lunc-calendar .week-area .week-font[data-v-0688a28f] {
+  flex: 1;
+  text-align: center;
+  color: #666;
+  font-size: 0.75rem;
+  font-family: 江城圆体-500W, 江城圆体;
+  font-weight: normal;
+  color: #666;
+}
+.lunc-calendar .calendar-data[data-v-0688a28f] {
+  padding: 0 0.625rem;
+}
+.lunc-calendar .calendar-data .swiper-item[data-v-0688a28f] {
+  position: relative;
+  display: -webkit-box;
+}
+.lunc-calendar .calendar-data .swiper-item .month-bg[data-v-0688a28f] {
+  position: absolute;
+  font-size: 240px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  color: #EEE;
+  opacity: 0.4;
+  z-index: -1;
+  word-break: initial;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days[data-v-0688a28f] {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days[data-v-0688a28f] {
+  display: flex;
+  flex-direction: row;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day[data-v-0688a28f] {
+  flex: 1;
+  width: 14.28%;
+  text-align: center;
+  height: 2.625rem;
+  color: #000;
+  box-sizing: border-box;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .day-info[data-v-0688a28f] {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .day-info .infoof[data-v-0688a28f] {
+  display: flex;
+  flex-direction: column;
+  width: 2.25rem;
+  height: 2.25rem;
+  line-height: 0;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .day-info .day-solar[data-v-0688a28f] {
+  display: block;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  font-family: 江城圆体-500W, 江城圆体;
+  font-weight: normal;
+  color: #333;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .day-info .day-lunar[data-v-0688a28f],
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .day-info .day-sign[data-v-0688a28f] {
+  line-height: 0.78125rem;
+  transform: scale(1);
+  white-space: nowrap;
+  font-size: 0.5rem;
+  font-family: 江城圆体-400W, 江城圆体;
+  font-weight: normal;
+  color: #666;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .day-info .day-sign[data-v-0688a28f] {
+  color: #F75858 !important;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .day-info .day-tag[data-v-0688a28f] {
+  content: "";
+  position: absolute;
+  bottom: 0.4375rem;
+  left: 1.3125rem;
+  width: 0.1875rem;
+  height: 0.1875rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #F75858;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .infoof.un-month[data-v-0688a28f] {
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-family: 江城圆体-500W, 江城圆体;
+  font-weight: normal;
+  transition: all 300ms;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .is-today .day-solar[data-v-0688a28f],
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .is-today .day-sign[data-v-0688a28f],
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .is-today .day-lunar[data-v-0688a28f] {
+  color: #E96161;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .week-end .day-solar[data-v-0688a28f] {
+  color: #666666;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .is-holiday .day-solar[data-v-0688a28f],
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .is-holiday .day-sign[data-v-0688a28f],
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .is-holiday .day-lunar[data-v-0688a28f] {
+  color: #E96161 !important;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days .day .is-sel[data-v-0688a28f] {
+  border-radius: 50%;
+  border: 0.03125rem solid #ED4C46;
+}
+.lunc-calendar .calendar-data .swiper-item .month-days .week-days.week-hide[data-v-0688a28f] {
+  display: none;
+}
+.lunc-calendar .calendar-data .swiper-item .item-week .un-month[data-v-0688a28f] {
+  opacity: 1 !important;
+}
+.lunc-calendar .shrink[data-v-0688a28f] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.875rem;
+  margin-bottom: 0.6875rem;
+}
+.lunc-calendar .shrink .shrink-btn[data-v-0688a28f] {
+  font-size: 1.625rem;
+  transition: all 300ms;
+  color: #999;
+}
+.lunc-calendar .shrink .tran1[data-v-0688a28f] {
+  width: 1.625rem;
+  height: 1.625rem;
+}
+.lunc-calendar .shrink .shrink-close[data-v-0688a28f] {
+  transform: rotate(-180deg);
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+@font-face {
+  font-family: "江城圆体-200W";
+  src: url("../../../static/fonts/江城圆体-200W.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "江城圆体-300W";
+  src: url("../../../static/fonts/江城圆体-300W.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "江城圆体-400W";
+  src: url("../../../static/fonts/江城圆体-400W.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "江城圆体-500W";
+  src: url("../../../static/fonts/江城圆体-500W.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "江城圆体-600W";
+  src: url("../../../static/fonts/江城圆体-600W.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "江城圆体-700W";
+  src: url("../../../static/fonts/江城圆体-700W.ttf") format("truetype");
+  font-weight: 700;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.calendar-wrap .nav-bar-content[data-v-c3697b44] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.calendar-wrap .nav-bar-content .nav-bar-left[data-v-c3697b44] {
+  margin-left: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+.calendar-wrap .nav-bar-content .nav-bar-left .left-icon[data-v-c3697b44] {
+  font-size: 0.75rem;
+}
+.calendar-wrap .nav-bar-content .nav-bar-left .date[data-v-c3697b44] {
+  font-size: 1rem;
+  font-family: 江城圆体-600W, 江城圆体;
+  font-weight: normal;
+  color: #333;
+}
+.calendar-wrap .nav-bar-content .nav-bar-right[data-v-c3697b44] {
+  display: flex;
+  align-items: center;
+}
+.calendar-wrap .nav-bar-content .nav-bar-right .action-txt[data-v-c3697b44] {
+  margin-right: 1.25rem;
+  font-size: 1rem;
+  font-family: 江城圆体-500W, 江城圆体;
+  font-weight: normal;
+  color: #333;
+}
+.calendar-wrap .calendar-content[data-v-c3697b44] {
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 0.9375rem;
+}

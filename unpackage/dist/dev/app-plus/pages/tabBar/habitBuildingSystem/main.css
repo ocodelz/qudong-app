@@ -1,0 +1,224 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+@font-face {
+  font-family: "江城圆体-200W";
+  src: url("../../../static/fonts/江城圆体-200W.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "江城圆体-300W";
+  src: url("../../../static/fonts/江城圆体-300W.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "江城圆体-400W";
+  src: url("../../../static/fonts/江城圆体-400W.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "江城圆体-500W";
+  src: url("../../../static/fonts/江城圆体-500W.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "江城圆体-600W";
+  src: url("../../../static/fonts/江城圆体-600W.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "江城圆体-700W";
+  src: url("../../../static/fonts/江城圆体-700W.ttf") format("truetype");
+  font-weight: 700;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tabbar[data-v-cbc872e1] {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 1.3125rem;
+  right: 1.3125rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.0625rem;
+  background: #FFFFFF;
+  box-shadow: 0.125rem -0.125rem 0.375rem 0 rgba(0, 0, 0, 0.1), 0.125rem 0.125rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+  opacity: 1;
+}
+.tabbar-item[data-v-cbc872e1] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3.125rem;
+}
+.tabbar-item-img[data-v-cbc872e1] {
+  width: 1.625rem;
+  height: 1.625rem;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+@font-face {
+  font-family: "江城圆体-200W";
+  src: url("../../../static/fonts/江城圆体-200W.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "江城圆体-300W";
+  src: url("../../../static/fonts/江城圆体-300W.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "江城圆体-400W";
+  src: url("../../../static/fonts/江城圆体-400W.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "江城圆体-500W";
+  src: url("../../../static/fonts/江城圆体-500W.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "江城圆体-600W";
+  src: url("../../../static/fonts/江城圆体-600W.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "江城圆体-700W";
+  src: url("../../../static/fonts/江城圆体-700W.ttf") format("truetype");
+  font-weight: 700;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.wrap[data-v-ab1730f8] {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+}
+.wrap .content[data-v-ab1730f8] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.wrap .content .greeting-message[data-v-ab1730f8] {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.75rem;
+  flex-shrink: 0;
+}
+.wrap .content .greeting-message-txt[data-v-ab1730f8] {
+  font-size: 1.25rem;
+  font-family: 江城圆体-600W, 江城圆体;
+  font-weight: normal;
+  color: #333;
+}
+.wrap .content .greeting-message-txt[data-v-ab1730f8]:first-child {
+  margin-left: 0.5rem;
+}
+.wrap .content .cultivation-category[data-v-ab1730f8] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.wrap .content .cultivation-category .cell[data-v-ab1730f8] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.wrap .content .cultivation-category .cell .item[data-v-ab1730f8] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7.5rem;
+  height: 8.75rem;
+  background: #fff;
+  border-radius: 1.25rem;
+  flex-shrink: 0;
+}
+.wrap .content .cultivation-category .cell .item-img[data-v-ab1730f8] {
+  width: 5.0625rem;
+  height: 7.875rem;
+}
+.wrap .content .cultivation-category .cell .item-active[data-v-ab1730f8] {
+  border: 0.125rem solid #ED4C46;
+}
+.wrap .content .cultivation-category .cell[data-v-ab1730f8]:not(:last-child) {
+  margin-right: 3.4375rem;
+}
+.wrap .content .bottom-action[data-v-ab1730f8] {
+  margin-top: 7.875rem;
+  flex-shrink: 0;
+}
+.wrap .content .bottom-action-btn[data-v-ab1730f8] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  width: 11.125rem;
+  height: 2.375rem;
+  background: #ED4C46;
+  border-radius: 0.625rem;
+  font-size: 0.875rem;
+  font-family: 江城圆体-500W, 江城圆体;
+  font-weight: normal;
+  color: #fff;
+}
+.wrap .content .bottom-action-txt[data-v-ab1730f8] {
+  font-size: 1rem;
+  font-family: 江城圆体-600W, 江城圆体;
+  font-weight: normal;
+  color: #333;
+}

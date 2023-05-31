@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login"
+		},
+		{
+			"path": "pages/tabBar/index/index"
+		},
+		{
+			"path": "pages/tabBar/habitBuildingSystem/index/index"
+		},
+		{
+			"path": "pages/accountManagement/personalInformationDetails/personalInformationDetails"
+		},
+		{
+			"path": "pages/audioAndAlertSettings/audioAndAlertSettings"
+		},
+		{
+			"path": "pages/tabBar/calendar/calendar"
+		},
+		{
+			"path": "pages/tabBar/quadrants/quadrants"
+		},
+		{
+			"path": "pages/tabBar/habitBuildingSystem/main"
+		},
+		{
+			"path": "pages/tabBar/userProfile/userProfile"
+		},
+		{
+			"path": "pages/aboutUs/aboutUs"
+		},
+		{
+			"path": "pages/accountManagement/emailLogin/emailLogin"
+		},
+		{
+			"path": "pages/accountManagement/registerAccount/registerAccount"
+		},
+		{
+			"path": "pages/accountManagement/changeAndRecoverPassword/changeAndRecoverPassword"
+		},
+		{
+			"path": "pages/accountManagement/accountDeletion/accountDeletion"
+		},
+		{
+			"path": "pages/audioAndAlertSettings/completionSound/completionSound"
+		},
+		{
+			"path": "pages/vipMembership/vipMembership"
+		},
+		{
+			"path": "pages/tabBar/habitBuildingSystem/loadingPage/loadingPage"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F0F4F7",
+		"backgroundColor": "#F0F4F7",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"backgroundColor": "#F0F4F7",
+		"height": "49px",
+		"fontSize": "13px",
+		"list": [{
+				"pagePath": "/pages/tabBar/index/index",
+				"text": ""
+			},
+			{
+				"pagePath": "/pages/tabBar/calendar/calendar",
+				"text": ""
+			},
+			{
+				"pagePath": "/pages/tabBar/quadrants/quadrants",
+				"text": ""
+			},
+			{
+				"pagePath": "/pages/tabBar/habitBuildingSystem/main",
+				"text": ""
+			},
+			{
+				"pagePath": "/pages/tabBar/userProfile/userProfile",
+				"text": ""
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
